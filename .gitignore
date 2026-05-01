@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data — never commit raw or processed data
+data/
+*.csv
+*.json
+!ingestion/*.json
